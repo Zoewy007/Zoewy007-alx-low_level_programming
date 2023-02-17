@@ -1,22 +1,17 @@
 #include <stdio.h>
-
+/**
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-	int alpha_low;
-	int alpha_high;
-	
-	alpha_low = 'a';
-	while (alpha_low <= 'z')
-	{
-		putchar(alpha_low);
-		alpha_low++;
-	}
-	alpha_high = 'A';
+	int alpha;
 
-	while (alpha_high <= 'Z')
+	alpha = 'a';
+	while (alpha <= 'z')
 	{
-		putchar(alpha_high);
-		alpha_high++;
+		putchar(alpha);
+		alpha++;
 	}
 	return (0);
 }
