@@ -1,11 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/**
- * file: main.h
- * Description: contains all the function prototype used in this project.
- */
-
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
@@ -18,4 +13,5 @@ void print_square(int size);
 void print_triangle(int size);
 int _putchar(char c);
 void print_number(int n);
+
 #endif /* MAIN_H */
